@@ -13,15 +13,15 @@ const Home = () => {
         <div className="container mx-auto px-6">
           <h1 className="text-5xl font-bold mb-4">Mortgages made simple</h1>
           <p className="text-lg mb-8">Get a fast and easy mortgage with no hidden fees.</p>
-          <link href="/start" className="bg-green-300 text-black py-2 px-6 rounded-full font-semibold hover:bg-green-900">
-           <a> Set my approval</a>
+          <link href="/start" >
+           <a className="bg-green-300 text-black py-2 px-6 rounded-full font-semibold hover:bg-green-900"> Set my approval</a>
           </link>
         </div>
         <br />
         <div className="container mx-auto px-6">
           <h2 className="text-3xl font-bold mb-4">Ready to Get Started?</h2>
-          <link href="/start" className="bg-green-300 text-black py-2 px-6 rounded-full font-semibold hover:bg-green-900">
-           <a > Get Started</a>
+          <link href="/start" >
+           <a className="bg-green-300 text-black py-2 px-6 rounded-full font-semibold hover:bg-green-900"> Get Started</a>
           </link>
         </div>
         

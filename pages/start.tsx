@@ -34,7 +34,7 @@ export default function Start() {
     </div>
     <br />
     <div>
-      <h3 className='text-center text-gray-700 bg-green-50'>After a few questions, you'll unlock:</h3>
+      <h3 className='text-center text-gray-700 bg-green-50'>After a few questions, you&pos;ll unlock:</h3>
 
      <div className='flex items-center justify-center text-center text-gray-700'>
      <TbCirclePercentage  className='text-green-900 text-xl mr-2'/>
