@@ -14,7 +14,7 @@ export default function Start() {
         <title>Start - Better.com</title>
       </Head>
       <div>
-      <h1 className="text-6xl font-bold mb-4 text-center">Hi, I'm Betty!
+      <h1 className="text-6xl font-bold mb-4 text-center">Hi, I&pos;m Betty!
         <br/>
         What can I help you with?
       </h1>
