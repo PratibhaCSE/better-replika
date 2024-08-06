@@ -1,5 +1,6 @@
 // pages/index.tsx
 import Head from 'next/head';
+import Link from 'next/link'; // Ensure Link is imported
 
 const Home = () => {
   return (
@@ -13,18 +14,17 @@ const Home = () => {
         <div className="container mx-auto px-6">
           <h1 className="text-5xl font-bold mb-4">Mortgages made simple</h1>
           <p className="text-lg mb-8">Get a fast and easy mortgage with no hidden fees.</p>
-          <link href="/start" >
-           <a className="bg-green-300 text-black py-2 px-6 rounded-full font-semibold hover:bg-green-900"> Set my approval</a>
-          </link>
+          <Link href="/start" className="bg-green-300 text-black py-2 px-6 rounded-full font-semibold hover:bg-green-900">
+            Set my approval
+          </Link>
         </div>
         <br />
         <div className="container mx-auto px-6">
           <h2 className="text-3xl font-bold mb-4">Ready to Get Started?</h2>
-          <link href="/start" >
-           <a className="bg-green-300 text-black py-2 px-6 rounded-full font-semibold hover:bg-green-900"> Get Started</a>
-          </link>
+          <Link href="/start" className="bg-green-300 text-black py-2 px-6 rounded-full font-semibold hover:bg-green-900">
+            Get Started
+          </Link>
         </div>
-        
       </section>
 
       {/* Features Section */}
@@ -76,8 +76,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-
-      
     </div>
   );
 };
